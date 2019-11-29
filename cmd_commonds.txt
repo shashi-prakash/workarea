@@ -1,0 +1,61 @@
+CMD BASIC COMMONDS
+
+1.To know the serial no. of any drive i.e. c, d or e.
+E:\>vol commond
+
+2.To know the versions of os 
+C:\>ver
+
+3. Date comond is used to show date
+date hit enter
+
+4.Time commond is used to show time
+time 
+
+5.To know the host_name,os_name,os_versions,os_configuration,registerd_ownername
+product_id,system_bootdate,system_model,processor,Bios_versions,memory,network
+systeminfo hit_enter
+
+6.To move from one folder to another folder
+move first_folder_name second_folder_name hit enter (it move from first=>second)
+
+7.To rename files or folder we use
+rem old_file_name new_file_name
+
+8.To create a files on cmd
+type nul > file_name_with_extensions (that is txt,css,html etc)
+
+9.To show the items which is in files that is txt,css,html types
+type file_name_with_extensions hit enter
+
+10. To copy one files data in another files
+copy first_filename second_file_name(copy in order 1=>2 files)
+
+11.To delete files we use
+del commond
+
+12.to show the list of files/ folder in a directry use
+dir commond
+
+13.To clear the screen use cls commonds
+
+14.To open notepad by cmd then write notepad hit enter
+
+15.To check your network properly work or not use 
+ping google.com
+
+16.To know the ip address or mac address use commonds
+first open cmd as administrative then 
+ipconfig /all hit enter
+
+17.To back your root directory in cmd
+cd ../..(here are two dot use for leave two director, ../../.. for three)
+
+18.To remove/delete folder we use rmdir folder_name
+
+
+
+
+
+
+
