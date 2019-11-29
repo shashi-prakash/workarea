@@ -1,0 +1,58 @@
+REPL TERMINALS
+
+REPL is the short form of the READ,EVAL,PRINT,LOOP.It represents a computer environment like a windows console or unix/linux shell,where a commond is entered and system
+respond with an output in interactive mode.
+
+Starting repl
+To start repl first of all start terminals/shell
+1.now type node on the terminals and hit enter 
+2.SIMPLE MATHEMATICS  EXPRESSIONS AT NODE JS REPL
+node
+> 1+3
+4
+>1+(2*4)-8
+1
+
+ADDING TWO NUMBERS ON REPL
+PS E:\internship_project> node
+> 2+2
+4
+>
+ 
+                                                   
+
+
+3.USE VARIABLES AT NODEJS REPL
+
+node
+> x=5
+5
+> var x=5  
+undefined
+> console.log("hello javascript")
+hello javascript
+undefined
+
+MULTILINE EXPRESSION IN REPL
+LOOPING STATEMENT
+node
+> var x=0;
+undefined
+> do{
+... x++;
+... console.log("value of x="+x);
+... }while(x<10);
+value of x=1
+value of x=2
+value of x=3
+value of x=4
+value of x=5
+value of x=6
+value of x=7
+value of x=8
+value of x=9
+value of x=10
+undefined
+>
+
+
