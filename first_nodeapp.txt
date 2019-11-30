@@ -1,0 +1,19 @@
+first node js app
+
+var http=require('http');
+http.createServer(function(req,res)
+{
+    res.write('hello guys whats up');
+    res.end();
+
+}).listen(3000,function(){
+console.log("Server Start at port 3000");
+});
+
+To run on terminal now open your terminals and then
+node app.js    hit enter
+the output becomes
+Server Start at port 3000
+After that you can also see the output on browser with local host
+
+
