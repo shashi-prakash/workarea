@@ -1,0 +1,51 @@
+CALLBACK CONCEPT
+
+WHAT IS CALLBACK IN NODE.JS
+
+callback is a asychronous equivqlent for a function.And a callback function is called, at the completion of a given task.All APIs of node.js are written is-
+such a way that they supports callbacks. Lets us understand with an example.
+A function to read a file may start reading file and return the execution environment immediately so that next instuction can be excuted.Once file i/o is 
+complete, it will call the callback function while passing the callback fuction, the content of the file as parameter.So there is no blocking or wait for 
+file i/o.This makes node.js highly scalable.
+
+Blocking code Example of node.js
+
+1.First of create a text file on text editor, name any thing as you want i.e.
+My file name is input.txt now content of this
+
+hello guys i'm the blocking code example of callback function.
+
+now make a .js file i.e. app.js
+
+var fs= require("fs");
+var data=fs.readFileSync('input.txt');
+console.log(data.toString());
+console.log("Program Ended");
+
+now open your terminals then
+PS E:\file> node app.js
+hello guys i'm the blocking code example of callback function.
+Program Ended
+ 
+
+Non-blocking code Example of node.js
+input.txt now content of this
+hello guys i'm the Un-blocking code example of callback function.
+
+now make a .js file i.e. app.js
+var fs= require("fs");
+fs.readFile('input.txt',function(err,data) {
+if(err) return console.error(err);
+console.log(data.toString());
+});
+console.log("Program Ended");
+
+now open your terminals then
+PS E:\file> node app.js
+Program Ended
+hello guys i'm the blocking code example of callback function.
+PS E:\file>
+
+thus from above output it elaborate that blocking program executes very much in sequence and from programming point of view it is easy to implement but
+non-blocking program doesn't execute in sequence.
+

@@ -1,0 +1,37 @@
+NPM
+npm is the short form of the node package manager that provides the following two main functionalities such as
+a.Online repository for node.js package/modules which are searchable on search.nodejs.org
+b.Provides commond line utility to install node.js package,do version management and dependency management of node.js packages
+
+1.To install the npm do on terminals
+
+2.To know the versions of npm do this
+npm --version or simply -v
+
+3.Installing module using npm as we know that by default npm install any dependency in local mode here local means package install in node_module directory
+and globally install dependency means stored in system directory.
+
+npm install express
+
+globally it is
+
+npm install express -g
+
+
+4.To generate/create package.json file do
+npm init
+
+5.Atrributes of package.json
+name,version,description,homepage,author,contributors,dependencies  etc.
+
+6.To uninstall a module
+npm uninstall express
+
+7.To Update a module
+npm update express
+
+8.To search a module
+npm search express
+
+9.To publish module
+npm publish express
