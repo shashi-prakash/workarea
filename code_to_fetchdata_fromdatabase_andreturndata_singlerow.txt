@@ -1,0 +1,22 @@
+
+****code to fetch databasen and return a data from a database
+
+
+var mysql=require('mysql');
+var con=mysql.createConnection({
+    host:"localhost",//by default host name is localhost
+    user:"root",//bydefault it is root
+    database:"mydb"//database name
+})
+con.connect(function(err){
+    if(err) throw err;
+    console.log("connected")
+    con.query("select * from emp",(err,rows)=>{
+    console.log(rows);//** it returns all row data 
+
+//console.log(rows[0])//******but if we want to print a single row data
+    })
+});
+
+### now open terminals and 
+node data.js
